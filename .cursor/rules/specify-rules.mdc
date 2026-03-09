@@ -1,0 +1,41 @@
+---
+description: Project Development Guidelines
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# simple-todo-app Development Guidelines
+
+Auto-generated from all feature plans. Last updated: 2026-03-09
+
+## Active Technologies
+- Node.js 20 LTS, TypeScript 5.4 (full-stack) + Fastify 5, Prisma 5, @fastify/jwt v10, bcryptjs, React 19, Zustand 5, TanStack Router v1, Vite 5, Zod (001-todo-app)
+- PostgreSQL 16 (via Prisma ORM) (001-todo-app)
+- PostgreSQL 16 (via Prisma ORM in `apps/backend`) (001-todo-app)
+
+- Node.js 20 LTS (backend), TypeScript 5.4 (full-stack) + Express 5, Mongoose 8, React 19, Zustand 5, TanStack Router v1, Vite 5, Zod (validation) (001-todo-app)
+
+## Project Structure
+
+```text
+backend/
+frontend/
+tests/
+```
+
+## Commands
+
+npm test && npm run lint
+
+## Code Style
+
+Node.js 20 LTS (backend), TypeScript 5.4 (full-stack): Follow standard conventions
+
+## Recent Changes
+- 001-todo-app: Added Node.js 20 LTS, TypeScript 5.4 (full-stack) + Fastify 5, Prisma 5, @fastify/jwt v10, bcryptjs, React 19, Zustand 5, TanStack Router v1, Vite 5, Zod
+- 001-todo-app: Added Node.js 20 LTS, TypeScript 5.4 (full-stack) + Fastify 5, Prisma 5, @fastify/jwt v10, bcryptjs, React 19, Zustand 5, TanStack Router v1, Vite 5, Zod
+
+- 001-todo-app: Added Node.js 20 LTS (backend), TypeScript 5.4 (full-stack) + Express 5, Mongoose 8, React 19, Zustand 5, TanStack Router v1, Vite 5, Zod (validation)
+
+<!-- MANUAL ADDITIONS START -->
+<!-- MANUAL ADDITIONS END -->
